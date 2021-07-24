@@ -32,7 +32,8 @@ public class Machine {
 
     // static inner classes
     // static inner class can only access static variables
-    // static classes are used if you want a class not related to the instance of particular class
+    // static classes are used if you want a class not related to the instance of
+    // particular class
     static class Tire{
         void repair(){
             System.out.println("Tires are repaired");
